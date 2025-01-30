@@ -1,0 +1,123 @@
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    user-select: none;
+}
+
+div#start {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200%;
+    z-index: 5;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.title{
+    margin: 3rem;
+}
+
+.playField{
+    margin-top: 9rem;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 0, 0);
+}
+
+.trackSlot{
+    padding: 3rem;
+    margin: 0 0.2rem;
+    width: 100px;
+    position: relative;
+    background-color: black;
+}
+
+.trackSlot .musicTrack {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.selectField{
+    margin: 9rem auto;
+    height: 100px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(230, 0, 0);
+}
+
+.musicTrack{
+    width: 100px;
+    margin: 0;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#track1{
+    background-color: blue;
+}
+
+#track2{
+    background-color: blueviolet;
+}
+
+#track3{
+    background-color: green;
+}
+
+#track4{
+    background-color: yellow;
+}
+
+#track5{
+    background-color: orange;
+}
+
+#track6{
+    background-color: orangered;
+}
+
+#track7{
+    background-color: greenyellow;
+}
+
+#track8{
+    background-color: gold;
+}
+
+#track9{
+    background-color: purple;
+}
+
+#track10{
+    background-color: darkblue;
+}
+
+#track11{
+    background-color: lightblue;
+}
+
+footer{
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    padding-top: 1rem;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footerText{
+    font-size: 2.5vh;
+}
